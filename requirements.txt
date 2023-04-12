@@ -1,0 +1,3 @@
+pandas==1.5.3
+streamlit==1.21.0
+txtai==5.4.0
