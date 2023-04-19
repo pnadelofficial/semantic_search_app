@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from txtai.embeddings import Embeddings
 
+@st.cache_resource
 def get_data():
     embeddings = Embeddings()
     embeddings.load('pa_index')
