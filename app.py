@@ -36,7 +36,7 @@ def display_text(tup, context=1):
     st.markdown(to_display,unsafe_allow_html=True)
     st.markdown("<hr style='width: 75%;margin: auto;'>",unsafe_allow_html=True)
 
-st.title('Port Authority Minutes Search Engine')
+st.title('Port Authority Minutes Search Engine MY NAME IS PETER')
 st.markdown(
     '''
     This tool is designed to take in a search query and return relevant sentences from the public Port Authority minutes. 
